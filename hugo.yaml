@@ -3,7 +3,6 @@ languageCode: en-us
 title: "Team A"
 theme: "PaperMod"
 
-
 params:
   defaultTheme: auto
   disableThemeToggle: true
