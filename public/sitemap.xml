@@ -2,14 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/cosmos-demo/categories/</loc>
+    <loc>https://ucd25-cosmos-thebackpropagators.github.io/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/cosmos-demo/members/</loc>
+    <loc>https://ucd25-cosmos-thebackpropagators.github.io/members/</loc>
   </url><url>
-    <loc>http://localhost:1313/cosmos-demo/project/</loc>
+    <loc>https://ucd25-cosmos-thebackpropagators.github.io/project/</loc>
   </url><url>
-    <loc>http://localhost:1313/cosmos-demo/tags/</loc>
+    <loc>https://ucd25-cosmos-thebackpropagators.github.io/tags/</loc>
   </url><url>
-    <loc>http://localhost:1313/cosmos-demo/</loc>
+    <loc>https://ucd25-cosmos-thebackpropagators.github.io/</loc>
   </url>
 </urlset>
