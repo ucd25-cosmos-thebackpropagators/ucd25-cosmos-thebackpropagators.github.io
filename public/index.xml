@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Team A</title>
-    <link>https://ucd25-cosmos-thebackpropagators.github.io/</link>
-    <description>Recent content on Team A</description>
+    <title>The Backpropagators</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on The Backpropagators</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://ucd25-cosmos-thebackpropagators.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Project Title</title>
-      <link>https://ucd25-cosmos-thebackpropagators.github.io/project/</link>
+      <title>Mini Project</title>
+      <link>http://localhost:1313/miniproject/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ucd25-cosmos-thebackpropagators.github.io/project/</guid>
+      <guid>http://localhost:1313/miniproject/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;data&#34;&gt;Data&lt;/h2&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;methodology&#34;&gt;Methodology&lt;/h2&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;discussion&#34;&gt;Discussion&lt;/h2&gt;</description>
     </item>
   </channel>
