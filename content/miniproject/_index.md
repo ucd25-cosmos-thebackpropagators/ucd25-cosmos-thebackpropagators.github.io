@@ -1,5 +1,5 @@
 ---
-title: "Mini Project"
+title: "Mini Projects"
 showToc: true
 tocOpen: true
 ---
@@ -10,17 +10,10 @@ tocOpen: true
 ---
 
 
-## Data
-
-
----
-
-
-## Methodology
+## Methodology and Data
 
 
 ---
 
 
 ## Discussion
-

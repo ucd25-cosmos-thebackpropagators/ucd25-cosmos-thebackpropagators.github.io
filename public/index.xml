@@ -6,14 +6,7 @@
     <description>Recent content on The Backpropagators</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate></lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Mini Project</title>
-      <link>http://localhost:1313/miniproject/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/miniproject/</guid>
-      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;data&#34;&gt;Data&lt;/h2&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;methodology&#34;&gt;Methodology&lt;/h2&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;discussion&#34;&gt;Discussion&lt;/h2&gt;</description>
-    </item>
   </channel>
 </rss>
