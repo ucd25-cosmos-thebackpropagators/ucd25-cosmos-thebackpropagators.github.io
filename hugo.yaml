@@ -27,6 +27,9 @@ menu:
       name: Project
       url: /project/
       weight: 20
+    - identifier: MiniProject
+      name: Mini Project
+      url: /miniproject/
     - identifier: Example
       name: Example
       url: /example/
