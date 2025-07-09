@@ -41,7 +41,7 @@ Testing: Team Backpropagators members
 
 ---
 
-### Woodstock
+### Elaine Wang
 
 <div class="member-block" style="display: flex; align-items: flex-start; gap: 20px; flex-wrap: wrap; margin-bottom: 40px;">
 
