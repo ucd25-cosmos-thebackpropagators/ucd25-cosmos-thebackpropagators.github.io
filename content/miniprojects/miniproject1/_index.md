@@ -4,9 +4,7 @@ showToc: true
 tocOpen: true
 ---
 
-
-### [Miniproject 1](miniproject1/_index.md)
-
+## Miniproject 1 
 
 
 ---
