@@ -23,4 +23,3 @@ tocOpen: true
 
 
 ## Discussion
-
