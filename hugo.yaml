@@ -1,6 +1,6 @@
 baseURL: 'https://ucd25-cosmos-thebackpropagators.github.io/'
 languageCode: en-us
-title: "Team A"
+title: "The Backpropagators"
 theme: "PaperMod"
 
 params:
@@ -26,6 +26,10 @@ menu:
       name: Project
       url: /project/
       weight: 20
+    - identifier: MiniProject
+      name: Mini Project
+      url: /miniproject/
+      weight: 30
 
 markup:
   goldmark:
