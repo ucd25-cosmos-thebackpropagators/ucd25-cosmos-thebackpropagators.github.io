@@ -1,21 +1,7 @@
 ---
-title: "Mini Projects"
+title: "Mini Project 1"
 showToc: true
 tocOpen: true
 ---
 
 
-### [Miniproject 1](miniproject1/)
-
-
-
----
-
-
-## Methodology and Data
-
-
----
-
-
-## Discussion

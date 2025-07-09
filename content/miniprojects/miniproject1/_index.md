@@ -1,5 +1,6 @@
 ---
 title: "Mini Projects"
+description: "test description"
 showToc: true
 tocOpen: true
 ---
