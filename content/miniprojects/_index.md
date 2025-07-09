@@ -5,7 +5,7 @@ tocOpen: true
 ---
 
 
-### [Miniproject 1](miniproject1)
+### [Miniproject 1](miniproject1/)
 
 
 
