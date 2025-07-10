@@ -4,6 +4,7 @@ showToc: true
 tocOpen: true
 ---
 testing description
+<!--more-->
 
 ## Miniproject 1 
 
