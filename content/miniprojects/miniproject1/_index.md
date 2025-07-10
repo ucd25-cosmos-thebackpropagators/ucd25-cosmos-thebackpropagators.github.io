@@ -1,12 +1,11 @@
 ---
-title: "Mini Projects"
-description: "test description"
+title: "Mini Project 1"
 showToc: true
 tocOpen: true
 ---
+testing description
 
 ## Miniproject 1 
-
 
 ---
 
