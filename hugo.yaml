@@ -1,7 +1,7 @@
 baseURL: 'https://ucd25-cosmos-thebackpropagators.github.io/'
 languageCode: en-us
 title: "The Backpropagators"
-theme: "PaperMod"
+theme: "Blowfish"
 
 params:
   defaultTheme: auto
