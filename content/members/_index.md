@@ -14,19 +14,19 @@ title: "Members"
 }
 </style>
 
-Testing: Team Backpropagators members
+Team Backpropagators Members
 
 ---
 
 ### Rishi Gupta
 
-<div class="member-block" style="display: flex; align-items: flex-start; gap: 20px; flex-wrap: wrap; margin-bottom: 40px;">
+<div class="member-block" style="display: flex; align-items: center; gap: 20px; flex-wrap: wrap; margin-bottom: 40px;">
 
-  <img src="snoopy.jpeg"
+  <img src="rishi.png"
        alt="Snoopy"
-       style="width: 150px; height: 150px; object-fit: cover; border-radius: 0%; object-position: center; flex-shrink: 0;">
+       style="width: 150px; height: 200px; object-fit: cover; border-radius: 0%; object-position: center 10%; flex-shrink: 0;">
 
-  <div style="flex: 1; text-align: left;">
+  <div style="flex:; text-align: left; margin-top: 20px;">
     <p style="margin: 0; padding-top: 0.5em;">
       Snoopy is a lovable beagle and one of the most iconic characters from the Peanuts comic strip, created by Charles M. Schulz. 
     </p>
@@ -64,7 +64,7 @@ Testing: Team Backpropagators members
 
 ---
 
-## Charlie Brown
+## Allen Jin
 
 <div class="member-block" style="display: flex; align-items: flex-start; gap: 20px; flex-wrap: wrap; margin-bottom: 40px;">
 
@@ -87,7 +87,7 @@ Testing: Team Backpropagators members
 
 ---
 
-## Lucy Van Pelt
+## Saanvi Sheoran
 
 <div class="member-block" style="display: flex; align-items: flex-start; gap: 20px; flex-wrap: wrap; margin-bottom: 40px;">
 
