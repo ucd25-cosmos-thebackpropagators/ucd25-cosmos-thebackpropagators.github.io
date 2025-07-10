@@ -1,7 +1,7 @@
 baseURL: 'https://ucd25-cosmos-thebackpropagators.github.io/'
 languageCode: en-us
 title: "The Backpropagators"
-theme: "PaperMod"
+theme: "Doks"
 
 params:
   defaultTheme: auto
@@ -11,7 +11,7 @@ params:
   profileMode:
     enabled: true
     title: "The Backpropagators"
-    subtitle: "Description"
+    subtitle: "Backpropagating through the cosmos of knowledge..."
     imageUrl: "butter.jpeg"
     imageWidth: 120 # custom size
     imageHeight: 120 # custom size
