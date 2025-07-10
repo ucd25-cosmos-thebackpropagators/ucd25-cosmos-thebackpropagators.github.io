@@ -1,5 +1,6 @@
 ---
 title: "Mini Project 1"
+date: 2025-07-09
 showToc: true
 tocOpen: true
 ---
