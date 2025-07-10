@@ -31,9 +31,9 @@ menu:
       name: Mini Projects
       url: /miniprojects/
       weight: 30
-    - identifier: Example
-      name: Example
-      url: /example/
+    - identifier: Photo Blog
+      name: Photo Blog
+      url: /photoblog/
       weight: 40
 
 markup:
