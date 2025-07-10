@@ -1,5 +1,5 @@
 ---
-title: "Mini Project 1"
+title: "Mini Projects"
 showToc: true
 tocOpen: true
 ---
