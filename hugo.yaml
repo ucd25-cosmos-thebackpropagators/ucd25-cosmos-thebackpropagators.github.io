@@ -1,7 +1,7 @@
 baseURL: 'https://ucd25-cosmos-thebackpropagators.github.io/'
 languageCode: en-us
 title: "The Backpropagators"
-theme: "Doks"
+theme: "Typecho"
 
 params:
   defaultTheme: auto
