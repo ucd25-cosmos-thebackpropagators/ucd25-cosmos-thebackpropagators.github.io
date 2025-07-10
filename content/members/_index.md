@@ -51,12 +51,12 @@ Testing: Team Backpropagators members
 
   <div style="flex: 1; text-align: left;">
     <p style="margin: 0; padding-top: 0.5em;">
-      Woodstock is ...
+      Elaine is a rising junior from the Bay Area. She loves to dance, listen to music, and take photos in her free time.
     </p>
     <ul style="margin: 0; padding-left: 20px;">
-      <li>AAA</li>
-      <li>BBB</li>
-      <li>CCC</li>
+      <li>Snoopy and fruit lover </li>
+      <li>Matcha addict</li>
+      <li>Teaches STEM to middle schoolers and volunteers at a food organization in outside of school</li>
     </ul>
   </div>
 
