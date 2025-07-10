@@ -22,9 +22,9 @@ Team Backpropagators Members
 
 <div class="member-block" style="display: flex; align-items: flex-start; gap: 20px; flex-wrap: wrap; margin-bottom: 40px;">
 
-  <img src=""
+  <img src="rishi.png"
        alt="Snoopy"
-       style="width: 150px; height: 153px; object-fit: cover; border-radius: 25%; object-position: center; flex-shrink: 0;">
+       style="width: 150px; height: 160px; object-fit: cover; border-radius: 25%; object-position: center; flex-shrink: 0;">
 
   <div style="flex: 1; text-align: left;">
     <p style="margin: 0; padding-top: 0.5em;">
@@ -47,7 +47,7 @@ Team Backpropagators Members
 
   <img src="elaine.png"
        alt="Woodstock"
-       style="width: 150px; height: 153px; object-fit: cover; border-radius: 25%; object-position: center; flex-shrink: 0;">
+       style="width: 150px; height: 160px; object-fit: cover; border-radius: 25%; object-position: center; flex-shrink: 0;">
 
   <div style="flex: 1; text-align: left;">
     <p style="margin: 0; padding-top: 0.5em;">
@@ -70,7 +70,7 @@ Team Backpropagators Members
 
   <img src="allen.png"
        alt="Allen"
-       style="width: 150px; height: 153px; object-fit: cover; border-radius: 25%; object-position: center; flex-shrink: 0;">
+       style="width: 150px; height: 160px; object-fit: cover; border-radius: 25%; object-position: center; flex-shrink: 0;">
 
   <div style="flex: 1; text-align: left;">
     <p style="margin: 0; padding-top: 0.5em;">
@@ -93,7 +93,7 @@ Team Backpropagators Members
 
   <img src="saanvi.png"
        alt="Lucy Van Pelt"
-       style="width: 150px; height: 153px; object-fit: cover; border-radius: 25%; object-position: center; flex-shrink: 0;">
+       style="width: 150px; height: 160px; object-fit: cover; border-radius: 25%; object-position: center; flex-shrink: 0;">
 
   <div style="flex: 1; text-align: left;">
     <p style="margin: 0; padding-top: 0.5em;">
