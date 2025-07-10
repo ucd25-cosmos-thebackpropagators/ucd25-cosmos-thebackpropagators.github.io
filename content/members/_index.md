@@ -20,11 +20,11 @@ Team Backpropagators Members
 
 ### Rishi Gupta
 
-<div class="member-block" style="display: flex; align-items: center; gap: 20px; margin-bottom: 40px;">
+<div class="member-block" style="display: flex; align-items: flex-start; gap: 20px; flex-wrap: wrap; margin-bottom: 40px;">
 
   <img src="rishi.png"
        alt="Snoopy"
-       style="width: 150px; height: 200px; object-fit: cover; border-radius: 0%; object-position: center 10%; flex-shrink: 0;">
+       style="width: 150px; height: 150px; object-fit: cover; border-radius: 25%; object-position: center; flex-shrink: 0;">
 
   <div style="flex: 1; text-align: left;">
     <p style="margin: 0; padding-top: 0.5em;">
@@ -45,7 +45,7 @@ Team Backpropagators Members
 
 <div class="member-block" style="display: flex; align-items: flex-start; gap: 20px; flex-wrap: wrap; margin-bottom: 40px;">
 
-  <img src="woodstock.jpeg"
+  <img src="elaine.png"
        alt="Woodstock"
        style="width: 150px; height: 150px; object-fit: cover; border-radius: 25%; object-position: center; flex-shrink: 0;">
 
