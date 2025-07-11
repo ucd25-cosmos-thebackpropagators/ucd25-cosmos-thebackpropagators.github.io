@@ -19,3 +19,6 @@ testing description
 
 
 ## Discussion
+
+
+![Income vs Pollution Scatter Plot](income_vs_pollution_scatter.png "Income_Pollution_Scatter_Plot")

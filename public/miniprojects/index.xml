@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Mini Projects on The Backpropagators</title>
-    <link>http://localhost:1313/miniproject/</link>
+    <link>http://localhost:1313/miniprojects/</link>
     <description>Recent content in Mini Projects on The Backpropagators</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- 0.148.0</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/miniproject/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate></lastBuildDate>
+    <atom:link href="http://localhost:1313/miniprojects/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
