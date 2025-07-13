@@ -64,11 +64,6 @@ jobs:
             hugo-
       - name: Configure Git
         run: git config core.quotepath false
-      - name: Verify theme installation
-        run: |
-          echo "Checking if PaperMod theme exists..."
-          ls -la themes/
-          ls -la themes/PaperMod/
       - name: Build with Hugo
         run: |
           hugo \
