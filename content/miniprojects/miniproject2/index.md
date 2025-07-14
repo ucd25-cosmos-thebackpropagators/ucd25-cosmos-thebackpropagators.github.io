@@ -3,9 +3,9 @@ title: "Mini Project 2: Clustering of Movies by Genres"
 date: 2025-07-14
 showToc: true
 tocOpen: true
-weight: 10
+weight: 20
 ---
-### Objective: Find similarities in movies and cluster them into subgroups
+## Objective: Find similarities in movies and cluster them into subgroups
 ---
 
 ## Introduction

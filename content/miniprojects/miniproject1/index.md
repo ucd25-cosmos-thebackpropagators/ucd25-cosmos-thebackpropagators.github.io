@@ -4,8 +4,11 @@ date: 2025-07-09
 showToc: true
 tocOpen: true
 weight: 10
+summary: This project investigates the relationship between median household income and air pollution levels to explore whether wealthier areas experience lower pollution. 
+
+
 ---
-### Objective: Median Household Income vs. Air Quality 
+## Objective: Median Household Income vs. Air Quality 
 ---
 
 ## Introduction
