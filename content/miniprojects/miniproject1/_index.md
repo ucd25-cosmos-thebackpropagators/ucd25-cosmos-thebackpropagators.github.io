@@ -32,4 +32,4 @@ These results suggest that while there may be a slight trend of lower pollution 
 
 
 
-![Income vs Pollution Scatter Plot](income_vs_pollution_scatter.png "Income_Pollution_Scatter_Plot")
+![Income vs Pollution Scatter Plot](income_vs_pollution_scatter.png)
