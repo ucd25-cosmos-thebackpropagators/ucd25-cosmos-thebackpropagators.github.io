@@ -3,7 +3,11 @@ title: "First Entry"
 date: 2025-07-08
 author: "Wonjun Seo"
 ---
+{{< katex >}}
+
 Markdown was funny.
+
+*If you want to include some math expressions, you should type some special commands in the markdown file. See the source file of this webpage!*
 
 $$
 \begin{aligned}

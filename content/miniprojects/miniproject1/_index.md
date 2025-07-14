@@ -1,10 +1,12 @@
 ---
 title: "Mini Project 1  "
+date: 2025-07-09
 showToc: true
 tocOpen: true
+weight: 10
 ---
 Median Household Income vs. Air Quality 
-<!--more-->
+
 
 ## Introduction
 Air pollution is a pressing environmental concern in California, with potential links to socioeconomic disparities across counties. This project investigates the relationship between median household income and air pollution levels to explore whether wealthier areas experience lower pollution. By applying a linear regression model, we aim to identify the strength and direction of this correlation using real-world data.
@@ -28,3 +30,7 @@ The regression analysis resulted in a negative coefficient (approximately -4.72e
 These results suggest that while there may be a slight trend of lower pollution in higher-income counties, income alone is not a strong predictor of air quality. Further research could explore additional variables such as industrial activity, population density, and vehicle traffic to better explain differences in pollution levels across counties.
 
 ---
+
+
+
+![Income vs Pollution Scatter Plot](income_vs_pollution_scatter.png "Income_Pollution_Scatter_Plot")
