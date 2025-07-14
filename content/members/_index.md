@@ -95,12 +95,12 @@ title: "Members"
 
   <div style="flex: 1; text-align: left;">
     <p style="margin: 0; padding-top: 0.5em;">
-      Lucy Van Pelt is ...
+      Saanvi is a rising senior from San Diego.
     </p>
     <ul style="margin: 0; padding-left: 20px;">
-      <li>AAA</li>
-      <li>BBB</li>
-      <li>CCC</li>
+      <li>Enjoys Painting, Drawing</li>
+      <li>Interested in Real-World Applications of Data Science and ML</li>
+      <li>Volunteers at STEM programs such as All Girls STEM Society and Girls Who Code</li>
     </ul>
   </div>
   
