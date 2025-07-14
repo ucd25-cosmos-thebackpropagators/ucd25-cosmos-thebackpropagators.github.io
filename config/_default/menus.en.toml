@@ -55,22 +55,22 @@
 [[main]]
   name = "Members"
   pageRef = "members"
-  weight = 10
+  weight = 40
 
 [[main]]
   name = "Project"
   pageRef = "project"
-  weight = 20
+  weight = 10
 
 [[main]]
-  name = "MiniProjects"
+  name = "Mini Projects"
   pageRef = "miniprojects"
-  weight = 30
+  weight = 20
 
 [[main]]
   name = "Photo Blog"
   pageRef = "photoblog"
-  weight = 40
+  weight = 30
 
 
 
