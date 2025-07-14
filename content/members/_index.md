@@ -14,7 +14,7 @@ title: "Members"
 }
 </style>
 
-Testing: Team Backpropagators members
+Testing: Those who are within the Backpropogation realm...
 
 ---
 
