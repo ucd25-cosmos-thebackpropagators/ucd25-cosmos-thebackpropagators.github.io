@@ -14,8 +14,6 @@ title: "Members"
 }
 </style>
 
-Team Backpropagators Members
-
 ---
 
 ### Rishi Gupta
