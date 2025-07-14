@@ -3,9 +3,8 @@ title: "Mini Project 1"
 date: 2025-07-09
 showToc: true
 tocOpen: true
+weight: 10
 ---
-testing description
-<!--more-->
 
 ## Miniproject 1 
 
