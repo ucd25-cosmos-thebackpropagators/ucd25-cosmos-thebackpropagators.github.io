@@ -14,17 +14,15 @@ title: "Members"
 }
 </style>
 
-Testing: Those who are within the Backpropogation realm...
-
 ---
 
 ### Rishi Gupta
 
 <div class="member-block" style="display: flex; align-items: flex-start; gap: 20px; flex-wrap: wrap; margin-bottom: 40px;">
 
-  <img src="snoopy.jpeg"
+  <img src="rishi.png"
        alt="Snoopy"
-       style="width: 150px; height: 150px; object-fit: cover; border-radius: 0%; object-position: center; flex-shrink: 0;">
+       style="width: 150px; height: 160px; object-fit: cover; border-radius: 25%; object-position: center; flex-shrink: 0;">
 
   <div style="flex: 1; text-align: left;">
     <p style="margin: 0; padding-top: 0.5em;">
@@ -45,9 +43,9 @@ Testing: Those who are within the Backpropogation realm...
 
 <div class="member-block" style="display: flex; align-items: flex-start; gap: 20px; flex-wrap: wrap; margin-bottom: 40px;">
 
-  <img src="woodstock.jpeg"
+  <img src="elaine.png"
        alt="Woodstock"
-       style="width: 150px; height: 150px; object-fit: cover; border-radius: 25%; object-position: center; flex-shrink: 0;">
+       style="width: 150px; height: 160px; object-fit: cover; border-radius: 25%; object-position: center; flex-shrink: 0;">
 
   <div style="flex: 1; text-align: left;">
     <p style="margin: 0; padding-top: 0.5em;">
@@ -64,13 +62,13 @@ Testing: Those who are within the Backpropogation realm...
 
 ---
 
-## Charlie Brown
+## Allen Jin
 
 <div class="member-block" style="display: flex; align-items: flex-start; gap: 20px; flex-wrap: wrap; margin-bottom: 40px;">
 
-  <img src="charlie.jpeg"
-       alt="Charlie Brown"
-       style="width: 150px; height: 150px; object-fit: cover; border-radius: 50%; object-position: center; flex-shrink: 0;">
+  <img src="allen.png"
+       alt="Allen"
+       style="width: 150px; height: 160px; object-fit: cover; border-radius: 25%; object-position: center; flex-shrink: 0;">
 
   <div style="flex: 1; text-align: left;">
     <p style="margin: 0; padding-top: 0.5em;">
@@ -87,13 +85,13 @@ Testing: Those who are within the Backpropogation realm...
 
 ---
 
-## Lucy Van Pelt
+## Saanvi Sheoran
 
 <div class="member-block" style="display: flex; align-items: flex-start; gap: 20px; flex-wrap: wrap; margin-bottom: 40px;">
 
-  <img src="lucy.jpeg"
+  <img src="saanvi.png"
        alt="Lucy Van Pelt"
-       style="width: 150px; height: 150px; object-fit: cover; border-radius: 50%; object-position: center; flex-shrink: 0;">
+       style="width: 150px; height: 160px; object-fit: cover; border-radius: 25%; object-position: center; flex-shrink: 0;">
 
   <div style="flex: 1; text-align: left;">
     <p style="margin: 0; padding-top: 0.5em;">

@@ -2,18 +2,7 @@
 title: "Mini Projects"
 showToc: true
 tocOpen: true
+orderByWeight: true
 ---
 
-## Introduction
-
-
----
-
-
-## Methodology and Data
-
-
----
-
-
-## Discussion
+<br>
