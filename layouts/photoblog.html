@@ -1,0 +1,18 @@
+{{ define "main" }}
+  {{ $style := resources.Get "css/photoblog.css" | resources.Minify | resources.Fingerprint }}
+  <link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}" crossorigin="anonymous" />
+
+  <main class="photo-page">
+    <h1>{{ .Title }}</h1>
+    <div class="photo-grid">
+      {{ $images := readDir "static/photoblog" }}
+      {{ range $images }}
+        {{ if or (strings.HasSuffix .Name ".jpg") (strings.HasSuffix .Name ".png") }}
+          <a href="/photoblog/{{ .Name }}" target="_blank">
+            <img class="photo-thumb" src="/photoblog/{{ .Name }}" alt="{{ .Name }}" loading="lazy" />
+          </a>
+        {{ end }}
+      {{ end }}
+    </div>
+  </main>
+{{ end }}
