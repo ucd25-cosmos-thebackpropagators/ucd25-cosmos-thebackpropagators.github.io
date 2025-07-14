@@ -1,12 +1,12 @@
 ---
-title: "Mini Project 1  "
+title: "Mini Project 1 "
 date: 2025-07-09
 showToc: true
 tocOpen: true
 weight: 10
+showTableOfContents: true
+summary: Median Household Income vs. Air Quality
 ---
-Median Household Income vs. Air Quality 
-
 
 ## Introduction
 Air pollution is a pressing environmental concern in California, with potential links to socioeconomic disparities across counties. This project investigates the relationship between median household income and air pollution levels to explore whether wealthier areas experience lower pollution. By applying a linear regression model, we aim to identify the strength and direction of this correlation using real-world data.
