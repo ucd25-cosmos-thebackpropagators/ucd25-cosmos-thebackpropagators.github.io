@@ -1,0 +1,48 @@
+h1 {
+  text-align: center;
+  font-size: 3.5rem;
+  font-weight: 800;
+  margin: 2rem 0 3rem;
+  letter-spacing: 2px;
+  color: #f9fafb; 
+  text-shadow: 0 2px 12px #fbbf24, 0 1px 0 #222; 
+}
+
+.photo-page {
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(375px, 1fr));
+  gap: 1rem;
+  width: 100%;
+  padding: 0 8vw; 
+  margin: 0;
+  animation: fadeInGrid 1s ease;
+}
+
+.photo-thumb {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 4px 24px rgba(60, 60, 120, 0.12);
+  transition: transform 0.2s, box-shadow 0.2s;
+  border: 2px solid #e0e7ff;
+  background: #fff;
+}
+
+.photo-thumb:hover {
+  transform: scale(1.04) rotate(-1deg);
+  box-shadow: 0 8px 32px rgba(60, 60, 120, 0.18);
+}
+
+@keyframes fadeInGrid {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+

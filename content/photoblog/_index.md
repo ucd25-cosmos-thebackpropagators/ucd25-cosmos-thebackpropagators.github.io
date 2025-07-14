@@ -1,4 +1,5 @@
 ---
-title: "Example"
+title: "Photo Blog"
+layout: "photoblog"
 ---
-Example
+
