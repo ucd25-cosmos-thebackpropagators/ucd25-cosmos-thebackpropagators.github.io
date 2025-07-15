@@ -1,6 +1,3 @@
----
-title: "Members"
----
 <style>
 @media (max-width: 600px) {
   .member-block {
@@ -14,9 +11,10 @@ title: "Members"
 }
 </style>
 
----
+<h1 style="margin-bottom: 1rem;">Members</h1>
+<hr style="margin-top: 1rem; margin-bottom: 3.5rem;">
 
-### Rishi Gupta
+## Rishi Gupta
 
 <div class="member-block" style="display: flex; align-items: flex-start; gap: 20px; flex-wrap: wrap; margin-bottom: 40px;">
 
@@ -39,7 +37,7 @@ title: "Members"
 
 ---
 
-### Elaine Wang
+## Elaine Wang
 
 <div class="member-block" style="display: flex; align-items: flex-start; gap: 20px; flex-wrap: wrap; margin-bottom: 40px;">
 
@@ -72,12 +70,12 @@ title: "Members"
 
   <div style="flex: 1; text-align: left;">
     <p style="margin: 0; padding-top: 0.5em;">
-      Charlie Brown is ...
+      Allen is a rising senior from SoCal
     </p>
     <ul style="margin: 0; padding-left: 20px;">
-      <li>AAA</li>
-      <li>BBB</li>
-      <li>CCC</li>
+      <li>Loves listening to music</li>
+      <li>Likes watching sports like football and basketball</li>
+      <li>Enjoys going out with friends</li>
     </ul>
   </div>
   
@@ -105,5 +103,3 @@ title: "Members"
   </div>
   
 </div>
-
----
