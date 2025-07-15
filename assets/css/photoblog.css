@@ -4,8 +4,13 @@ h1 {
   font-weight: 800;
   margin: 2rem 0 3rem;
   letter-spacing: 2px;
-  color: #f9fafb; 
-  text-shadow: 0 2px 12px #fbbf24, 0 1px 0 #222; 
+  color: #334155; 
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.05), 0 2px 4px rgba(0,0,0,0.08); 
+}
+
+html.dark h1 {
+  color: #f9fafb;
+  text-shadow: 0 2px 12px #24dbfb, 0 1px 0 #222;
 }
 
 .photo-page {

@@ -8,9 +8,7 @@
       {{ $images := readDir "static/photoblog" }}
       {{ range $images }}
         {{ if or (strings.HasSuffix .Name ".jpg") (strings.HasSuffix .Name ".png") }}
-          <a href="/photoblog/{{ .Name }}" target="_blank">
-            <img class="photo-thumb" src="/photoblog/{{ .Name }}" alt="{{ .Name }}" loading="lazy" />
-          </a>
+          <img class="photo-thumb medium-zoom-image" src="/photoblog/{{ .Name }}" alt="{{ .Name }}" loading="lazy" />
         {{ end }}
       {{ end }}
     </div>
