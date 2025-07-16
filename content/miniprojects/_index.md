@@ -7,7 +7,7 @@ orderByWeight: true
 
 <style>
 body {
-    background-image: url('/img/test.svg');
+    background-image: url('/img/test3.svg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
