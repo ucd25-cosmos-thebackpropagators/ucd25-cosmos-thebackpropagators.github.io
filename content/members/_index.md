@@ -95,7 +95,7 @@ title: "Members"
 
   <div style="flex: 1; text-align: left;">
     <p style="margin: 0; padding-top: 0.5em;">
-      Saanvi is a rising senior from San Diego.
+      Saanvi is a rising senior from San Diego.     
     </p>
     <ul style="margin: 0; padding-left: 20px;">
       <li>Enjoys Painting, Drawing</li>
