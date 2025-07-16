@@ -4,7 +4,19 @@ date: 2025-07-14
 showToc: true
 tocOpen: true
 weight: 20
+showHero: true
+heroStyle: background 
+summary: This project investigates similarities between features of a movie in order to group the large amount of movies into clusters that have similar characteristics.
 ---
+<style>
+.article-content{
+    color:white;
+}
+
+#TableOfContents a {
+    color: white;
+}
+</style>
 ## Objective: Find similarities in movies and cluster them into subgroups
 ---
 

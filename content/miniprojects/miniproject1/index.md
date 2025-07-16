@@ -4,10 +4,20 @@ date: 2025-07-09
 showToc: true
 tocOpen: true
 weight: 10
-summary: This project investigates the relationship between median household income and air pollution levels to explore whether wealthier areas experience lower pollution. 
-
+summary: This project investigates the relationship between median household income and air pollution levels to explore whether wealthier areas experience lower pollution
+showHero: true
+heroStyle: background 
 
 ---
+<style>
+.article-content{
+    color:white;
+}
+
+#TableOfContents a {
+    color: white;
+}
+</style>
 ## Objective: Median Household Income vs. Air Quality 
 ---
 
@@ -22,7 +32,9 @@ We collected data on median household income and air pollution scores for each c
 ---
 
 ## Results
-We graphed Median Household Income on the x-axos and Pollution Level on the y-axis. The result for such a graph indicated a series of points along the plot to show an overall downward sloping result. The regression line indicated in the graph below indicates the overall trend. This line reflects the fact that an increase in income typically results in a decrease in the pollution level in that neighborhood.
+We graphed Median Household Income on the x-axis and Pollution Level on the y-axis. The result for such a graph indicated a series of points along the plot to show an overall downward sloping result. The regression line indicated in the graph below indicates the overall trend. This line reflects the fact that an increase in income typically results in a decrease in the pollution level in that neighborhood.
+
+![Income vs Pollution Scatter Plot](income_vs_pollution_scatter.png)
 
 ---
 
@@ -36,5 +48,3 @@ Some outliers were also noted in the graph with some values deviating greatly fr
 ---
 
 
-
-![Income vs Pollution Scatter Plot](income_vs_pollution_scatter.png)
