@@ -36,7 +36,12 @@ body::before {
 .py-1 {
     color: white;
 }
-    ---
+.mt-5 {
+    margin-bottom: 25px
+}
+
+</style>
+---
 
 ## Introduction
 
@@ -48,9 +53,3 @@ There are so many different genres of movies that we watch. Romance. Horror. Com
 In order to properly classify the dataset of movies, we used a variety of clustering techniques, including PCA and t-SNE...
 
 ---
-
-.mt-5 {
-    margin-bottom: 25px
-}
-
-</style>
