@@ -26,16 +26,22 @@ body::before {
     z-index: -1;
 }
 
-.p-4 {
+.dark .p-4 {
     background-color: rgba(21, 50, 100, 1);
 }
 
-.text-xl {
-    color: white
+.p-4 {
+    background-color: rgba(229,229,229,1);
 }
-.py-1 {
+
+.dark .py-1 {
     color: white;
 }
+
+.py-1 {
+    color: black;
+}
+
 .mt-5 {
     margin-bottom: 25px
 }
