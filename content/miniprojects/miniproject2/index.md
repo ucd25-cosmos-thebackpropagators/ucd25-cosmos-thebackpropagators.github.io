@@ -9,12 +9,15 @@ heroStyle: background
 summary: This project investigates similarities between features of a movie in order to group the large amount of movies into clusters that have similar characteristics.
 ---
 <style>
-.article-content{
-    color:white;
+.article-content,
+#TableOfContents a {
+  color: black;
 }
 
-#TableOfContents a {
-    color: white;
+/* Dark mode */
+.dark .article-content,
+.dark #TableOfContents a {
+  color: white;
 }
 </style>
 ## Objective: Find similarities in movies and cluster them into subgroups
