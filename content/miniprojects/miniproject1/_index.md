@@ -14,13 +14,12 @@ Air pollution is a pressing environmental concern in California, with potential 
 ---
 
 ## Methodology and Data
-
-We collected data on median household income and air pollution scores for each county in California from the publicly available NIH national database. The data was loaded and cleaned using Python’s Pandas library. To examine the correlation between income and pollution levels, we used Scikit-Learn’s LinearRegression model. The results were then visualized using Matplotlib, where a scatter plot of actual data points was plotted alongside the line of best fit produced by the regression model.
+We collected data on median household income and air pollution scores for each county in California from the publicly available NIH national database. Collecting data from the same research website ensured that the definitions of the county were consistent. The data was then loaded and cleaned using Python’s Pandas library. To examine the correlation between income and pollution levels, we used Scikit-Learn’s LinearRegression model. The LinearRegression model graphed a best fit line according to the points that were plotted. The results were visualized using Matplotlib, where a scatter plot of actual data points was plotted. The line of best fit was also produced by the regression model.
 
 ---
 
 ## Results
-We graphed Median Household Income on the x-axos and Pollution Level on the y-axis. The result for such a graph indicated a series of points along the plot to show an overall downward sloping result. The regression line indicated in the graph below indicates the overall trend. This line reflects the fact that an increase in income typically results in a decrease in the pollution level in that neighborhood.
+We graphed Median Household Income on the x-axis and Pollution Level on the y-axis. The result for such a graph indicated a series of points along the plot to show an overall downward sloping result. The regression line indicated in the graph below indicates the overall downward trend. This line reflects the fact that an increase in income typically results in a decrease in the pollution level in that neighborhood.
 
 ---
 
