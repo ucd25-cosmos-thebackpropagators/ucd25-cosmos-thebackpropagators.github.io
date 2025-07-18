@@ -10,12 +10,15 @@ heroStyle: background
 
 ---
 <style>
-.article-content{
-    color:white;
+.article-content,
+#TableOfContents a {
+  color: black;
 }
 
-#TableOfContents a {
-    color: white;
+/* Dark mode */
+.dark .article-content,
+.dark #TableOfContents a {
+  color: white;
 }
 </style>
 ## Objective: Median Household Income vs. Air Quality 
