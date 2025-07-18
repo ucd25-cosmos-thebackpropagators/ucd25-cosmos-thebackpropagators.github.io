@@ -30,8 +30,20 @@ body::before {
     background-color: rgba(21, 50, 100, 1);
 }
 
+/* Light mode (body has no .dark class) */
+body:not(.dark) .article-content,
+body:not(.dark) #TableOfContents a {
+  color: black;
+}
+
+/* Dark mode */
+body.dark .article-content,
+body.dark #TableOfContents a {
+  color: white;
+}
+
 .py-1 {
-    color: white
+    color: white;
 }
 
 .mt-5 {
