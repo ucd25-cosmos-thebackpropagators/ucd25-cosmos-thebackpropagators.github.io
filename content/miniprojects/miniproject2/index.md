@@ -41,6 +41,9 @@ There are numerous other types of clustering techniques and different models of 
 ---
 
 ## Results
+![Scatter Plot](scatterplot.jpg)
+![Clusters](clusters.jpg)
+![Movie Presence Per Cluster](presence.jpg)
 
 ---
 
