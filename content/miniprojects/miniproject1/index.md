@@ -37,7 +37,10 @@ We collected data on median household income and air pollution scores for each c
 ## Results
 We graphed Median Household Income on the x-axis and Pollution Level on the y-axis. The result for such a graph indicated a series of points along the plot to show an overall downward sloping result. The regression line indicated in the graph below indicates the overall downward trend. This line reflects the fact that an increase in income typically results in a decrease in the pollution level in that neighborhood.
 
+<iframe src="/plotly/map.html" width="100%" height="400px" style="border:none;"></iframe>
+
 ![Income vs Pollution Scatter Plot](income_vs_pollution_scatter.png)
+
 
 ---
 
