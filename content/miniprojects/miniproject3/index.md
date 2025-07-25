@@ -29,7 +29,11 @@ The copper futures market involves the buying and selling of standardized contra
 ---
 
 ## Methodology and Data
-In order to build the model, we needed data to feed into the model and train it...
+For data, we downloaded copper contract prices from three exchanges. Below is the visualization of the data:
+
+![Copper Contract Prices](map.jpg)
+
+We then built a Random Forest Model to predict the price of copper contracts. 
 
 ---
 
