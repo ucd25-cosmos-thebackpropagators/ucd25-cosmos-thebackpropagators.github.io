@@ -56,6 +56,6 @@ Next, let's look at the colorful PCA and t-SNE clustering we used in the second 
 
 Finally, looking at the bottom most graph (a heat map), the y-axis refers to many different types of movie genres, such as Sci-Fi or Romance. The x-axis looks for the cluster number that movies of the corresponding genre that the movie was clustered in. The numbers in each box represent how much these two values relate to each other: 1 meaning that they have an exact relationship (an increase of 1 in one variable leads to an increase of 1 in the other variable) and 0 meaning that they have no relationship at all to each other. Knowing this, we see that if the movie genre is comedy, drama, and sci-fi, the movie would typically be clustered into cluster 0. If it was drama, romance, and action, it would be clustered in cluster 1. Horror movies would be categorized into cluster 2. Drama, comedy, and romance movies were clustered in cluster 3. Comedy and sci-fi movies were categorized in cluster 4. 
 
-Knowing this, we can make conclusions about...
+Knowing this, it was difficult to cluster movies into groups based on their popularity, runtime, or average votes showing that the model didn't really take into account of these variables when sorting clusters. We can make conclusions that these clusters were organized mainly based on their genres, given in the previous paragraph.
 
 ---
