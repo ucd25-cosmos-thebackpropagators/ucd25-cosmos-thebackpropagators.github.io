@@ -29,9 +29,10 @@ The copper futures market involves the buying and selling of standardized contra
 ---
 
 ## Methodology and Data
-For data, we downloaded copper contract prices from three exchanges. Below is the visualization of the data:
+In order to collect the data, we downloaded copper contract prices from three exchanges. Below is the visualization of the data:
 
 ![Copper Contract Prices](map.jpg)
+The graph shows the fluctuations of the data in relation to time. LME refers to the copper futures market in London. SHFE main refers to the copper futures market in Shanghai. COMEX refers to the copper futures market in Chicago.
 
 We then built a Random Forest Model to predict the price of copper contracts. 
 
