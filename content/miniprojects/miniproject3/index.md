@@ -34,6 +34,11 @@ In order to collect the data, we downloaded copper contract prices from three ex
 ![Copper Contract Prices](map.jpg)
 The graph shows the fluctuations of the data in relation to time. LME refers to the copper futures market in London. SHFE main refers to the copper futures market in Shanghai. COMEX refers to the copper futures market in Chicago.
 
+![Scatter Plot Matrix](scatter plot.png)
+We have a collection of scatter plots that shows the relationship between the trends of the copper futures graph of the ones in Shanghai, Chicago, and London. The labels on the left hand side of the matrix correspond to the y-axis labels of each graph that corresponds to its respective row. The labels on the bottom of the matrix correspond to the x-axis labels of each graph that corresponds to its respective column. From the data, we can tell that the trends of the three different copper futures market are almost exactly the same. The line of best fits for the scatter plots follow a linear shape and can easily fit into a straight line.
+
+![Confusion Matrix](confusion matrix.png)
+
 We then built a Random Forest Model to predict the price of copper contracts. 
 
 ---
