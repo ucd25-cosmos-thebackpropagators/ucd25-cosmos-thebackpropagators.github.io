@@ -9,7 +9,7 @@ We were given a large dataset with information about Wildfires. The dataset cont
 ---
 ## Question
 1. Based on the locations of previous fires, can we predict future locations of fires?
-2. Are we able to discover any relationship between the fire size and the fire's characteristics, such as how it was caused?
+2. Can we discover any relationship between the fire size and the fire's characteristics, such as how it was caused and build a model that can accurately predict a fire's class given its characteristics?
    
 ---
 ## Data
