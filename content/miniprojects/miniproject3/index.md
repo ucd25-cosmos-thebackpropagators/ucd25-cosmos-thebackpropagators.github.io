@@ -49,6 +49,6 @@ After learning more about the relationships between the three differen copper fu
 ---
 
 ## Discussion
-add
+From the graph of the predicted vs. actual values, we can tell that our model worked quite well and was able to learn the trends of the training data and use it to predict the future values of the copper futures market. The two graphs were very close to each other, with some values a little off. The two values on the top, RMSE and R² Score, represent the differences between these two graphs. RMSE or Root Mean Square Error is obtained by calculating the differences between each points and squaring it. All the squared values are summed up in order to calculate to RMSE. The RMSE was very low, 0.0802 to be precise, meaning that our predicted graph was quite close to what the actual graph looked like. The R² Score represents the variance of the values, a 1 being that the model explains all of the variance in the dependent variable, making the model a reliant one. The R² Score for our model was 0.9314, very close to 1. Thus, our model was able to successfully capture the fluctuations and trend of the data and predict the copper futures market.
 
 ---
