@@ -32,12 +32,15 @@ The copper futures market involves the buying and selling of standardized contra
 In order to collect the data, we downloaded copper contract prices from three exchanges. Below is the visualization of the data:
 
 ![Copper Contract Prices](map.jpg)
-The graph shows the fluctuations of the data in relation to time. LME refers to the copper futures market in London. SHFE main refers to the copper futures market in Shanghai. COMEX refers to the copper futures market in Chicago.
+The graph above shows the fluctuations of the data in relation to time. LME refers to the copper futures market in London. SHFE main refers to the copper futures market in Shanghai. COMEX refers to the copper futures market in Chicago.
 
 ![Scatter Plot Matrix](scatterplot.png)
 We have a collection of scatter plots that shows the relationship between the trends of the copper futures graph of the ones in Shanghai, Chicago, and London. The labels on the left hand side of the matrix correspond to the y-axis labels of each graph that corresponds to its respective row. The labels on the bottom of the matrix correspond to the x-axis labels of each graph that corresponds to its respective column. From the data, we can tell that the trends of the three different copper futures market are almost exactly the same. The line of best fits for the scatter plots follow a linear shape and can easily fit into a straight line.
 
 ![Confusion Matrix](confusionmatrix.png)
+The graph above shows the a confusion matrix in which we see a matrix of the relationship with different variables. A relationship of 1 means that these two variables are exactly related to each other and than an increment of one of one variable leads to an increment of one of the other variable. It would make sense that the diagonal line marked in red has a relationship of 1 because these three blocks represent a relationship in which the x and y axis are the same variables. Having it as the same variable would mean that each value of one variable would be exactly equal to the other, since we are comparing the variable to itself. We also see that the relationships between other variables are 1, or extremeley close to 1. This means that the trends between these three copper futures market are really close to each other and rarely deviate from each other.
+
+![Graph of Predicted vs. Actual Values](correlationgraph.png)
 
 We then built a Random Forest Model to predict the price of copper contracts. 
 
