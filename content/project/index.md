@@ -1,5 +1,5 @@
 ---
-title: "Prediction of Wildfire Locations Based on Past Findings"
+title: "Prediction of Number of Wildfires and Their Locations Based on Past Findings"
 showToc: true
 tocOpen: true
 ---
@@ -9,7 +9,7 @@ We were given a large dataset with information about Wildfires. The dataset cont
 ---
 ## Question
 1. Based on the locations of previous fires, can we predict future locations of fires?
-2. Can we discover any relationship between the fire size and the fire's characteristics, such as how it was caused and build a model that can accurately predict a fire's class given its characteristics?
+2. Can we also predict the number of wildfires within a state given past information on the amount of wildfires?
    
 ---
 ## Data
@@ -17,7 +17,7 @@ We were given a large dataset with information about Wildfires. The dataset cont
 
 ---
 ## Methodology
-
+In order to learn the trends and relationships between the locations and number of wildfires in a given state, we had to first look at the data given to us. The large data set contained some useful information to us, such as the state in which the fire occurred, the class of the fire, and what caused the fire...
 
 ---
 ## Discussion
