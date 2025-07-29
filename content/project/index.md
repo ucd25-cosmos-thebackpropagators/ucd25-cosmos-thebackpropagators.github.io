@@ -1,5 +1,5 @@
 ---
-title: "Project Title"
+title: "Prediction of Wildfire Locations Based on Past Findings"
 showToc: true
 tocOpen: true
 ---
