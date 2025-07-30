@@ -13,7 +13,7 @@ We were given a large dataset with information about Wildfires. The dataset cont
    
 ---
 ## Data
-
+Aside from the data that we were given, we also used data on average temperatures and precipitation in the wildfire areas. WE believe these factors are important as they can affect the size and effectiveness of the fire. Temperature effects how long the fire can last. Hotter temperatures dries out vegetation, creating more fuel for fires to spread quickly and intensely. Precipitation also greatly affects the intensity of wildfires. Abundant rainfall suppresses fires by moisturizing the fire's potential fuel, which makes it harder for flames to spread.
 
 ---
 ## Methodology
@@ -24,5 +24,6 @@ We were given a large dataset with information about Wildfires. The dataset cont
 ### 2. 
 ---
 ## Discussion
-...
+"information about correct and wrong predictions with news and why"
+
 One thing to address is that when we gathered data for the weather by longitude and latitude, we were unable to find data that completely matched the longitude and latitude that we were given. Thus, there is some degree of error (± 0.2) in merging the point location with the weather at that point. 
