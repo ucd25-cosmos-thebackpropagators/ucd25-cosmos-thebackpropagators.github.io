@@ -17,11 +17,11 @@ We were given a large dataset with information about Wildfires. The dataset cont
 
 ---
 ## Methodology
-### Processing the Data: Learn the Trends and Relationships betweeen Locations and Number of Wildfires
+### 1. Processing the Data: Learn the Trends and Relationships betweeen Locations and Number of Wildfires
 - found some useful information in the given dataset such as fire size, fire class, and cause of the fire
 - visualized the data using a heat map that indicates the concentration and number of wildfires in the U.S.
 - 
-
+### 2. 
 ---
 ## Discussion
 ...
