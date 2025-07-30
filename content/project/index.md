@@ -17,7 +17,12 @@ We were given a large dataset with information about Wildfires. The dataset cont
 
 ---
 ## Methodology
-In order to learn the trends and relationships between the locations and number of wildfires in a given state, we had to first look at the data given to us. The large data set contained some useful information to us, such as the state in which the fire occurred, the class of the fire, and what caused the fire...
+# Processing the Data: Learn the Trends and Relationships betweeen Locations and Number of Wildfires
+- found some useful information in the given dataset such as fire size, fire class, and cause of the fire
+- visualized the data using a heat map that indicates the concentration and number of wildfires in the U.S.
+- 
 
 ---
 ## Discussion
+...
+One thing to address is that when we gathered data for the weather by longitude and latitude, we were unable to find data that completely matched the longitude and latitude that we were given. Thus, there is some degree of error (± 0.2) in merging the point location with the weather at that point. 
