@@ -3,8 +3,20 @@ title: "Prediction of Number of Wildfires and Their Locations Based on Past Find
 showToc: true
 tocOpen: true
 ---
-## Introduction
+<style>
+.article-content,
+#TableOfContents a {
+  color: black;
+}
 
+/* Dark mode */
+.dark .article-content,
+.dark #TableOfContents a {
+  color: white;
+}
+</style>
+## Introduction
+---
 ### Impacts of Wildfires
 
 Wildfires are one of the most destructive natural disasters, leaving behind damage to ecosystems, communities, and infrastructure. In recent years, their frequency and intensity have grown, fueled by climate change and shifting environmental conditions. Predicting where wildfires are most likely to occur has become an important challenge in environmental research and disaster management.
@@ -63,6 +75,7 @@ To evaluate temporal generalization, we split the dataset by year. All data befo
 
 ### 2. Exploratory Data Analysis 
 add heat map here and some graphs
+
 ### 3. Model Development 
 The flowchart below indicates the architecture of our neural network we used in this project. We used a combination of Linear and Non-Linear layers, and the final output of the model was as tuple predicting latitude and longitude of the wildfires. 
 
@@ -110,6 +123,8 @@ Mean distance error (km): 337.35775307489865
 Median distance error (km): 281.007337205663
 
 Max distance error (km): 4431.848336938182
+
+<iframe src="/maps/2015_fires_map_actual.html" width="100%" height="400px" style="border:none;"></iframe>
 
 ---
 
