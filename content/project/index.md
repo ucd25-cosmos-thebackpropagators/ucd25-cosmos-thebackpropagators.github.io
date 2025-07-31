@@ -10,6 +10,10 @@ tocOpen: true
 Wildfires are one of the most destructive natural disasters, leaving behind damage to ecosystems, communities, and infrastructure. In recent years, their frequency and intensity have grown, fueled by climate change and shifting environmental conditions. Predicting where wildfires are most likely to occur has become an important challenge in environmental research and disaster management.
 ![News on Impacts of Fires in California](fire2.jpeg)
 ![News on Wildfires Causing Families to Evacuate](fire1.jpg)
+Above are some examples of news reports of wildfires impacting society and the environment. Wildfires are known for their destructive behavior in removing vegetation and causing pollutants in the environment, especially  the air around us. There have been many instances of news reports of the dangers of wildfires on our ecosystems
+
+Thus, in order to prevent the destruction of wildfires on our country, we decided to create a model that would learn from past information and trends about wildfires in order to predict the future locations and amounts of wildfires in an area to be able to procure preventative measures about these wildfires to ensure safety and wellbeing for those living in the area.
+
 
 ### Our Project
 In this project, we built a Multilayer Perceptron (MLP) neural network to predict the latitude and longitude of wildfire occurrences. Using features such as historical wildfire records and environmental factors, the model was trained on data prior to 2015 and then tested on fire events from 2015 to evaluate its ability to make accurate predictions. The MLP architecture, which uses multiple layers of connected neurons and RELU activation functions, was designed to capture patterns in the data that simpler models might miss.
@@ -34,11 +38,12 @@ We believe these factors are important as they can affect the size and effective
 
 ---
 ## Methodology
-### 1. Processing the Data
+### 1. Data Processing
 We needed to be able to use the data and give it to the model in order for it to learn the trends and relationships betweeen locations and number of wildfires:
 - found some useful information in the given dataset such as fire size, fire class, and cause of the fire
 - visualized the data using a heat map that indicates the concentration and number of wildfires in the U.S.
 ### 2. Exploratory Data Analysis 
+add heat map here and some graphs
 ### 3. Model Development 
 The flowchart below indicates the training functions we used in order to train the model. We used a variety of these function layers.
 ![Layers of Model Functions](model.png)
