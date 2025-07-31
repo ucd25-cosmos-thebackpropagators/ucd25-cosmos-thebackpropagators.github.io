@@ -9,6 +9,7 @@ tocOpen: true
   color: black;
 }
 
+
 /* Dark mode */
 .dark .article-content,
 .dark #TableOfContents a {
