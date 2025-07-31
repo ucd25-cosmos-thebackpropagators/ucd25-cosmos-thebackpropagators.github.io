@@ -64,7 +64,7 @@ To evaluate temporal generalization, we split the dataset by year. All data befo
 ### 2. Exploratory Data Analysis 
 add heat map here and some graphs
 ### 3. Model Development 
-The flowchart below indicates the architecture of our neural network we used in this project. We used a combination of Linear and Non-Linear layers. 
+The flowchart below indicates the architecture of our neural network we used in this project. We used a combination of Linear and Non-Linear layers, and the final output of the model was as tuple predicting latitude and longitude of the wildfires. 
 
 ![Layers of Model Functions](model.png)
 
@@ -77,12 +77,18 @@ The ReLu function outputs the input directly if it is positive and outputs zero 
 The Dropout function randomly drops out or disables some neurons (computational units) to create a slightly different inputs for each time we train the model. This helps the model learn trends rather than memorizing data. Memorizing data would cause our prediction of the wildfires in 2015 to be off the true value.
 ___
 ## Results
-Our model was able to have a training accuracy of about 90% with 10.52% of loss. Using this model, we predicted the wildfire trend in the year of 2015 and found good results:
+
+### 1. Model Evaluation 
+Our model had a training loss of .1052 after running for 50 epochs. Using this model, we predicted the wildfire trend in the year of 2015 and found the following results:
+
+**Percent Error:**
 
 Mean Latitude Percent Error: 3.7956767
 
 Mean Longitude Percent Error: 3.2202733
 
+\
+**Error Calculations:**
 
 Overall MSE: 11.8452
 
@@ -94,6 +100,10 @@ Latitude RMSE: 2.0597
 
 Longitude RMSE: 4.4100
 
+\
+**Distance Errors using Kilometers:**
+\
+We used the haversine python package to calculate the geographical distance between two points given in latitude/longitude coordinates. 
 
 Mean distance error (km): 337.35775307489865
 
