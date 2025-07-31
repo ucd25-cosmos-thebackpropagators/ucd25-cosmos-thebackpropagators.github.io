@@ -53,16 +53,25 @@ ___
 Our model was able to have a training accuracy of about 90% with 10.52% of loss. Using this model, we predicted the wildfire trend in the year of 2015 and found good results:
 
 Mean Latitude Percent Error: 3.7956767
+
 Mean Longitude Percent Error: 3.2202733
 
+
 Overall MSE: 11.8452
+
 RMSE: 3.4417
+
 MAE: 2.3056
+
 Latitude RMSE: 2.0597
+
 Longitude RMSE: 4.4100
 
+
 Mean distance error (km): 337.35775307489865
+
 Median distance error (km): 281.007337205663
+
 Max distance error (km): 4431.848336938182
 
 ---
