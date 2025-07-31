@@ -117,7 +117,7 @@ Max distance error (km): 4431.848336938182
 
 
 ### About the Errors
-blah blah
+Considering the fact that the distance across the U.S. is 4,509 km, the distance errors are small (only 200-300 km off). The government or organization can be able to contain the area of wildfire within this radius using several fire preventative techinques. However, one thing to note is that the max distance error (4431.848336938182 km) is quite close to the distance across the U.S. This means that there are incorrect predictions in our model...
 "information about correct and wrong predictions with news and why"
 
 One thing to address is that when we gathered data for the weather by longitude and latitude, we were unable to find data that completely matched the longitude and latitude that we were given. Thus, there is some degree of error (± 0.2) in merging the point location with the weather at that point. 
