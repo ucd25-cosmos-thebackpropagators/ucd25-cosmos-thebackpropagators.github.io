@@ -57,7 +57,7 @@
             {{ end }}
           </h1>
           {{ with .Site.Params.Author.headline }}
-            <h2 class="mt-0 mb-0 text-xl text-neutral-800 dark:text-neutral-300">
+            <h2 class="hero-subtitle mt-0 mb-0 text-xl text-neutral-800 dark:text-neutral-300">
               {{ . | markdownify }}
             </h2>
           {{ end }}
@@ -90,6 +90,16 @@
 <section>
   {{ partial "recent-articles/main.html" . }}
 </section>
+<script>
+  window.addEventListener('DOMContentLoaded', () => {
+    const subtitle = document.querySelector('.hero-subtitle');
+    if (subtitle) {
+      setTimeout(() => {
+        subtitle.classList.add('done');
+      }, 5200); // Match the duration of the typing animation
+    }
+  });
+</script>
 {{ if .Site.Params.homepage.layoutBackgroundBlur | default false }}
   <div
     id="background-blur"
