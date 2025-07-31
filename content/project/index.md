@@ -8,8 +8,11 @@ tocOpen: true
 ### Impacts of Wildfires
 
 Wildfires are one of the most destructive natural disasters, leaving behind damage to ecosystems, communities, and infrastructure. In recent years, their frequency and intensity have grown, fueled by climate change and shifting environmental conditions. Predicting where wildfires are most likely to occur has become an important challenge in environmental research and disaster management.
+
 ![News on Impacts of Fires in California](fire2.jpeg)
+
 ![News on Wildfires Causing Families to Evacuate](fire1.jpg)
+
 Above are some examples of news reports of wildfires impacting society and the environment. Wildfires are known for their destructive behavior in removing vegetation and causing pollutants in the environment, especially  the air around us. There have been many instances of news reports of the dangers of wildfires on our ecosystems
 
 Thus, in order to prevent the destruction of wildfires on our country, we decided to create a model that would learn from past information and trends about wildfires in order to predict the future locations and amounts of wildfires in an area to be able to procure preventative measures about these wildfires to ensure safety and wellbeing for those living in the area.
@@ -39,15 +42,39 @@ We believe these factors are important as they can affect the size and effective
 ---
 ## Methodology
 ### 1. Data Processing
-We needed to be able to use the data and give it to the model in order for it to learn the trends and relationships betweeen locations and number of wildfires:
-- found some useful information in the given dataset such as fire size, fire class, and cause of the fire
-- visualized the data using a heat map that indicates the concentration and number of wildfires in the U.S.
+
+Before training our neural network, we performed several preprocessing steps to ensure the dataset was clean, consistent, and ready for modeling. The original wildfire dataset contained both categorical and numerical features, as well as some missing values.
+
+    Handling Missing Values
+We first checked for missing entries across all features. Numerical columns such as elevation (m), precipitation (mm/day), temperature max (°C), and vapor pressure deficit (Pa) contained a small number of missing values. These were imputed by filling with the median value for that feature. This ensured no rows were dropped, preserving as much data as possible.
+
+	Encoding Categorical Variables
+
+Features such as STAT_CAUSE_DESCR (fire cause description), FIRE_SIZE_CLASS, and STATE were categorical. To make these usable for our neural network, we applied One-Hot Encoding, converting each category into binary indicator columns. This allowed the model to learn from categorical attributes without introducing ordinal bias.
+
+	Feature Scaling
+Since our model uses gradient-based optimization, numerical inputs were standardized using a StandardScaler. This transformed each feature to have zero mean and unit variance, preventing features with larger scales (such as elevation in meters) from dominating smaller-scaled features (such as daily precipitation).
+
+	Target Scaling
+Our prediction targets, latitude and longitude, were also scaled before training to stabilize learning and reduce loss magnitude. After prediction, results were inverse-transformed back to their real geographic coordinates for evaluation.
+
+	Train-Test Split
+To evaluate temporal generalization, we split the dataset by year. All data before 2015 was used for training, while the 2015 data was reserved strictly for testing. This approach simulates a real-world scenario where a model must predict future wildfire locations based on past data.
+
 ### 2. Exploratory Data Analysis 
 add heat map here and some graphs
 ### 3. Model Development 
-The flowchart below indicates the training functions we used in order to train the model. We used a variety of these function layers.
+The flowchart below indicates the architecture of our neural network we used in this project. We used a combination of Linear and Non-Linear layers. 
+
 ![Layers of Model Functions](model.png)
-The Linear function combines the inputs and weights and we used it in order give certain input values more importance over others. The BatchNorm1D normalizes the inputs of each layer, meaning it makes the model more efficient and reliable by reducing the possibility of shifts in the distribution of inputs. The ReLu function outputs the input directly if it is positive and outputs zero if the input is negative. This function is non-linear, allowing our model to capture the trends much better than just a best fit line. The Dropout function randomly drops out or disables some neurons (computational units) to create a slightly different inputs for each time we train the model. This helps the model learn trends rather than memorizing data. Memorizing data would cause our prediction of the wildfires in 2015 to be off the true value.
+
+The Linear function combines the inputs and weights and we used it in order give certain input values more importance over others. 
+
+The BatchNorm1D normalizes the inputs of each layer, meaning it makes the model more efficient and reliable by reducing the possibility of shifts in the distribution of inputs. 
+
+The ReLu function outputs the input directly if it is positive and outputs zero if the input is negative. This function is non-linear, allowing our model to capture the trends much better than just a best fit line. 
+
+The Dropout function randomly drops out or disables some neurons (computational units) to create a slightly different inputs for each time we train the model. This helps the model learn trends rather than memorizing data. Memorizing data would cause our prediction of the wildfires in 2015 to be off the true value.
 ___
 ## Results
 Our model was able to have a training accuracy of about 90% with 10.52% of loss. Using this model, we predicted the wildfire trend in the year of 2015 and found good results:
