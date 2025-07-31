@@ -17,7 +17,7 @@ title = "The Backpropagators"
 [params.author]
   name = "The Backpropagators"
 #   email = "youremail@example.com"
-  image = "img/blowfish_logo.png"
+  image = "mascot.jpg"
 #   imageQuality = 96
   headline = "Backpropagating through the cosmos of knowledge..."
 #   bio = "A little bit about you"
