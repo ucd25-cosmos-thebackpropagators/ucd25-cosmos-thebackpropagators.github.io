@@ -125,7 +125,14 @@ Median distance error (km): 281.007337205663
 
 Max distance error (km): 4431.848336938182
 
+
+### 2. Comparison of Actual vs. Predicted 2015 Wildfires
+
+Below is a heatmap of the **actual wildfires** that occured across the US in 2015. 
 <iframe src="/maps/2015_fires_map_actual.html" width="100%" height="400px" style="border:none;"></iframe>
+
+\
+Below is a heatmap of the **predicted wildfires** that occured across the US in 2015.
 
 ---
 
