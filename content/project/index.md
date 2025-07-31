@@ -50,12 +50,28 @@ The flowchart below indicates the training functions we used in order to train t
 The Linear function combines the inputs and weights and we used it in order give certain input values more importance over others. The BatchNorm1D normalizes the inputs of each layer, meaning it makes the model more efficient and reliable by reducing the possibility of shifts in the distribution of inputs. The ReLu function outputs the input directly if it is positive and outputs zero if the input is negative. This function is non-linear, allowing our model to capture the trends much better than just a best fit line. The Dropout function randomly drops out or disables some neurons (computational units) to create a slightly different inputs for each time we train the model. This helps the model learn trends rather than memorizing data. Memorizing data would cause our prediction of the wildfires in 2015 to be off the true value.
 ___
 ## Results
+Our model was able to have a training accuracy of about 90% with 10.52% of loss. Using this model, we predicted the wildfire trend in the year of 2015 and found good results:
 
-put results here
+Mean Latitude Percent Error: 3.7956767
+Mean Longitude Percent Error: 3.2202733
+
+Overall MSE: 11.8452
+RMSE: 3.4417
+MAE: 2.3056
+Latitude RMSE: 2.0597
+Longitude RMSE: 4.4100
+
+Mean distance error (km): 337.35775307489865
+Median distance error (km): 281.007337205663
+Max distance error (km): 4431.848336938182
 
 ---
 
 ## Discussion
+
+
+### About the Errors
+blah blah
 "information about correct and wrong predictions with news and why"
 
 One thing to address is that when we gathered data for the weather by longitude and latitude, we were unable to find data that completely matched the longitude and latitude that we were given. Thus, there is some degree of error (± 0.2) in merging the point location with the weather at that point. 
