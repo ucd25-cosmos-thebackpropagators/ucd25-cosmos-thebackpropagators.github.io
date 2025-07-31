@@ -29,14 +29,15 @@ We believe these factors are important as they can affect the size and effective
 
 ---
 ## Methodology
-### 1. Processing the Data: Learn the Trends and Relationships betweeen Locations and Number of Wildfires
+### 1. Processing the Data
+We needed to be able to use the data and give it to the model in order for it to learn the trends and relationships betweeen locations and number of wildfires:
 - found some useful information in the given dataset such as fire size, fire class, and cause of the fire
 - visualized the data using a heat map that indicates the concentration and number of wildfires in the U.S.
-- 
 ### 2. Exploratory Data Analysis 
 ### 3. Model Development 
-
-
+The flowchart below indicates the training functions we used in order to train the model. We used a variety of these function layers.
+![Layers of Model Functions](model.png)
+The Linear function combines the inputs and weights and we used it in order give certain input values more importance over others. The BatchNorm1D normalizes the inputs of each layer, meaning it makes the model more efficient and reliable by reducing the possibility of shifts in the distribution of inputs. The ReLu function outputs the input directly if it is positive and outputs zero if the input is negative. This function is non-linear, allowing our model to capture the trends much better than just a best fit line. The Dropout function randomly drops out or disables some neurons (computational units) to create a slightly different inputs for each time we train the model. This helps the model learn trends rather than memorizing data. Memorizing data would cause our prediction of the wildfires in 2015 to be off the true value.
 ___
 ## Results
 
