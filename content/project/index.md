@@ -76,6 +76,15 @@ To evaluate temporal generalization, we split the dataset by year. All data befo
 
 ### 2. Exploratory Data Analysis 
 add heat map here and some graphs
+![Number of Fires Based on Size](numberofires.png)
+![Causes vs Wildfires](causes.png)
+![Day of Year vs Wildfires](firevsdoy.png)
+![Max Daily Temp vs Wildfires](firevstemp.png)
+![Vapor Pressure Deficit vs Wildfires](vpavsfire.png)
+![Correlation of Important Fire Features](correlation.png)
+
+
+
 
 ### 3. Model Development 
 The flowchart below indicates the architecture of our neural network we used in this project. We used a combination of Linear and Non-Linear layers, and the final output of the model was as tuple predicting latitude and longitude of the wildfires. 
