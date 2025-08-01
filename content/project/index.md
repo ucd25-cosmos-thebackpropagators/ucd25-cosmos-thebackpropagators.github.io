@@ -76,13 +76,23 @@ To evaluate temporal generalization, we split the dataset by year. All data befo
 
 ### 2. Exploratory Data Analysis 
 add heat map here and some graphs
+
+<span style="font-size:30px; font-weight:bold;">Interactive Maps (might take a bit to load)</span>
+
+
+<a href="https://mybinder.org/v2/gh/AllenJin0818/heatmap/HEAD?urlpath=%2Fvoila%2Frender%2Fapp.ipynb"
+   target="_blank"
+   rel="noopener noreferrer"
+   style="color: #00c3ffff; font-weight: bold; text-decoration: underline; font-size:25px">
+   Fire Density Throughout All Years
+</a>
+
 ![Number of Fires Based on Size](numberofires.png)
 ![Causes vs Wildfires](causes.png)
 ![Day of Year vs Wildfires](firevsdoy.png)
 ![Max Daily Temp vs Wildfires](firevstemp.png)
 ![Vapor Pressure Deficit vs Wildfires](vpavsfire.png)
 ![Correlation of Important Fire Features](correlation.png)
-
 
 
 

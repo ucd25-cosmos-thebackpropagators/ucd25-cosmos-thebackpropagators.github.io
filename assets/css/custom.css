@@ -28,10 +28,10 @@
 .wavy-title span {
   opacity: 0;
   animation:
-    typings 0.6s ease-out forwards,
+    typings 0.4s ease-out forwards,
     wave 1.8s ease-in-out infinite,
     glowColor 6s ease-in-out infinite;
-  animation-delay: calc(var(--i) * 0.15s), calc(var(--i) * 0.15s), calc(var(--i) * 0.05s);
+  animation-delay: calc(var(--i) * 0.1s), calc(var(--i) * 0.1s), calc(var(--i) * 0.05s);
 }
 
 /* Subtitle typing animation */
@@ -41,7 +41,7 @@
   border-right: 2px solid currentColor;
   width: 0;
   animation:
-    subtitleTyping 3.5s steps(40, end) forwards 3.2s,
+    subtitleTyping 3.5s steps(40, end) forwards 2.6s,
     blink 0.75s step-end infinite;
   font-size: 1.25rem;
   margin-top: 0.5rem;
