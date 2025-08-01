@@ -75,7 +75,6 @@ Our prediction targets, latitude and longitude, were also scaled before training
 To evaluate temporal generalization, we split the dataset by year. All data before 2015 was used for training, while the 2015 data was reserved strictly for testing. This approach simulates a real-world scenario where a model must predict future wildfire locations based on past data.
 
 ### 2. Exploratory Data Analysis 
-add heat map here and some graphs
 
 <span style="font-size:20px; font-weight:bold;">Interactive Maps (might take a bit to load)</span>
 
