@@ -24,12 +24,12 @@
 
   <div style="flex: 1; text-align: left;">
     <p style="margin: 0; padding-top: 0.5em;">
-      Snoopy is a lovable beagle and one of the most iconic characters from the Peanuts comic strip, created by Charles M. Schulz. 
+      Rishi is a rising senior from the Bay Area. 
     </p>
     <ul style="margin: 0; padding-left: 20px;">
-      <li>Loyal companion of Charlie Brown</li>
-      <li>Loves root beer and pizza</li>
-      <li>Sleeps on top of his doghouse, not inside it</li>
+      <li>Plays three instruments: piano, guitar, and flute</li>
+      <li>Loves to play chess and runs a chess club</li>
+      <li>Eagle Scout</li>
     </ul>
   </div>
 
