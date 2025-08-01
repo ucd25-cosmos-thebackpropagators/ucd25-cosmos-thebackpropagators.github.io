@@ -113,6 +113,7 @@ To evaluate temporal generalization, we split the dataset by year. All data befo
 ![Day of Year vs Wildfires](firevsdoy.png)
 ![Max Daily Temp vs Wildfires](firevstemp.png)
 ![Vapor Pressure Deficit vs Wildfires](vpavsfire.png)
+![Elevation Vs Wildfires](elevationvsfire.png)
 ![Latitude vs Wildfires](latitude.png)
 ![Longitude vs Wildfires](longitude.png)
 ![Correlation of Important Fire Features](correlation.png)
