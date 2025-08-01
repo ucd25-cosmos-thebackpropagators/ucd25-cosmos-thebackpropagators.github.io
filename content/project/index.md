@@ -133,7 +133,7 @@ Below is a heatmap of the **actual wildfires** that occured across the US in 201
 
 \
 Below is a heatmap of the **predicted wildfires** that occured across the US in 2015.
-
+<iframe src="/maps/2015_fires_map_pred.html" width="100%" height="400px" style="border:none;"></iframe>
 ---
 
 ## Discussion
