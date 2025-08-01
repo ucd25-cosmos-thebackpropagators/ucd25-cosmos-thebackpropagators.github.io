@@ -87,6 +87,27 @@ add heat map here and some graphs
    Fire Density Throughout All Years
 </a>
 
+<a href="https://mybinder.org/v2/gh/AllenJin0818/heatmap2/HEAD?urlpath=%2Fvoila%2Frender%2Fselectyeardensity.ipynb"
+   target="_blank"
+   rel="noopener noreferrer"
+   style="color: #00c3ffff; font-weight: bold; text-decoration: underline; font-size:25px">
+   Fire Density Throughout Select Years
+</a>
+
+<a href="https://mybinder.org/v2/gh/AllenJin0818/heatmap3/HEAD?urlpath=%2Fvoila%2Frender%2Ffiresizeallyear.ipynb"
+   target="_blank"
+   rel="noopener noreferrer"
+   style="color: #00c3ffff; font-weight: bold; text-decoration: underline; font-size:25px">
+   Fire Size Throughout All Years
+</a>
+
+<a href="https://mybinder.org/v2/gh/AllenJin0818/heatmap4/HEAD?urlpath=%2Fvoila%2Frender%2Ffiresizeselectyear.ipynb"
+   target="_blank"
+   rel="noopener noreferrer"
+   style="color: #00c3ffff; font-weight: bold; text-decoration: underline; font-size:25px">
+   Fire Size Throughout Select Years
+</a>
+
 ![Number of Fires Based on Size](numberofires.png)
 ![Causes vs Wildfires](causes.png)
 ![Day of Year vs Wildfires](firevsdoy.png)
