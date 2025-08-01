@@ -9,6 +9,18 @@
     margin-bottom: 10px;
   }
 }
+
+/* Default (light mode) text color */
+body, .member-block, .member-block p, .member-block ul, .member-block li, #TableOfContents a {
+  color: #000;
+}
+
+/* Dark mode override */
+.dark body, .dark .member-block, .dark .member-block p, .dark .member-block ul, .dark .member-block li, .dark #TableOfContents a {
+  color: #fff;
+
+}
+
 </style>
 
 <h1 style="margin-bottom: 1rem;">Members</h1>

@@ -39,6 +39,10 @@ We graphed Median Household Income on the x-axis and Pollution Level on the y-ax
 
 ![Income vs Pollution Scatter Plot](income_vs_pollution_scatter.png)
 
+Below is an interactive map that separates the counties by their different incomes and air quality.
+<iframe src="/plotly/map.html" width="100%" height="400px" style="border:none;"></iframe>
+
+
 ---
 
 ## Discussion
