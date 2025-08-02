@@ -18,7 +18,26 @@ body, .member-block, .member-block p, .member-block ul, .member-block li, #Table
 /* Dark mode override */
 .dark body, .dark .member-block, .dark .member-block p, .dark .member-block ul, .dark .member-block li, .dark #TableOfContents a {
   color: #fff;
+}
 
+body {
+    background-image: url('/img/test11.svg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.1); /* Dark overlay - adjust opacity */
+    z-index: -1;
 }
 
 </style>
